@@ -42,20 +42,33 @@
 
 .nav-item:not(:first-child){
     border-left:0px;
-
 }
 
-.nav-item button{
+.nav-item .li{
     text-align: center;
     justify-content: center;
 }
 .nav-item:hover{
     border-bottom-color: #58c93a;
     color: #58c93a;
-    
 }
 
+.nav-item a:hover {
+    color: #58c93a;
+}
 .green-dot-header {
     color: #58c93a;
     font-weight: bolder;
+}
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+.btn-toggle-menu {
+    color: #bdc2bc;
+    background-color: #292929;
+}
+
+.btn-toggle-menu:hover {
+    color: #58c93a ;   
 }

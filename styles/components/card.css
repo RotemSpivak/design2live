@@ -3,21 +3,21 @@ html {
     font-family: "Lato Light";
 }
 
-img {
-    max-height: 308px;
-    max-width: 477px;
+.card-image {
+    max-height: 290px;
+    max-width: 450px;
     margin-right: 24px;
 } 
 
 .card {
     display: flex;
     justify-content: center;
-    margin: auto;
     margin-top: 50px;
 }
 
 .card-content {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
