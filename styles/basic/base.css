@@ -1,0 +1,88 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+}
+
+
+.previous-next {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(216, 213, 213);
+    color: rgb(83, 81, 81);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    max-width: 954px;
+    margin: 0 auto;
+    bottom: 30px;
+    font-family: "champagne&limousines";
+    text-transform: uppercase;
+    padding: 24px;
+    justify-self: flex-start;
+}
+
+
+.fa {
+    height: 41px;
+    width: 41px;
+    font-size: large;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px;
+    background: #5c6477;
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-content {
+    display: flex;
+    max-width: 984px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border: solid 1px rgb(205, 202, 202);
+}
+
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+small {
+    height: 13px;
+}
+h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 40px 0;
+}
+.green-dot-footer {
+    color: #58c93a;
+    font-weight: bolder;
+}
+
+
+.footer-title {
+    font-family: "eurofurence";
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+

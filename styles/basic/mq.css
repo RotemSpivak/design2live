@@ -1,0 +1,52 @@
+
+/* REGULAR */
+@media (max-width: 1020px) {
+    html {
+        font-size: 16px;
+    }
+
+    .main-layout {
+        max-width: 954px;
+    }
+
+    .main-header .nav-bar .nav-item {
+        height: 130px;
+        width: 130px;
+    }
+}
+
+/* MEDIUM */
+@media (max-width: 880px){
+
+    .main-layout {
+        max-width: 880px;
+    }
+
+    /* .main-header {
+        height: 100px;
+    }
+
+    .nav-item {
+        height: 50px;
+    } */
+    
+    .card {
+        padding-inline-end: 1.625em;
+    }
+}
+
+/* SMALL */
+@media (max-width: 740px){
+    .main-layout {
+        display: block;
+    }
+
+    img{
+        height: 250px;
+    }
+
+    .card-content img{
+        display: block;
+        max-width: 200px;
+    }
+}

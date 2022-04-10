@@ -1,0 +1,61 @@
+.main-header {
+    width: 100%;
+    background-color: #292929;
+    display: flex;
+    margin: 0 auto;
+}
+
+.div-header {
+    background-color: #292929;
+}
+
+.main-header .logo {
+    display: flex;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-family: "eurofurence";
+}
+
+
+.main-nav {
+    list-style: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "Lato";
+}
+
+.nav-item {
+    font-weight: 700;
+    background-color: #292929;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    height: 125px;
+    width: 125px;
+    border: solid 2px #0e0d0d;
+    cursor: pointer;
+}
+
+.nav-item:not(:first-child){
+    border-left:0px;
+
+}
+
+.nav-item button{
+    text-align: center;
+    justify-content: center;
+}
+.nav-item:hover{
+    border-bottom-color: #58c93a;
+    color: #58c93a;
+    
+}
+
+.green-dot-header {
+    color: #58c93a;
+    font-weight: bolder;
+}
